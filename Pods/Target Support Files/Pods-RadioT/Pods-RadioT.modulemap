@@ -1,0 +1,6 @@
+framework module Pods_RadioT {
+  umbrella header "Pods-RadioT-umbrella.h"
+
+  export *
+  module * { export * }
+}

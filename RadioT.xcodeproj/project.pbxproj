@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B76E3AEA1F00FD1B00285E91 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76E3AE91F00FCFB00285E91 /* OpenSans-Semibold.ttf */; };
+		B76E3AEC1F02CED500285E91 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E3AEB1F02CED500285E91 /* InfoController.swift */; };
+		B778D1611F04341400538D11 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B778D1601F04341400538D11 /* NewsController.swift */; };
+		B778D1631F043B7D00538D11 /* OnlinePlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B778D1621F043B7D00538D11 /* OnlinePlayerController.swift */; };
+		B7BB63991EFE8D8E00111FE7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB63981EFE8D8E00111FE7 /* CustomCell.swift */; };
+		B7BB639B1EFE9C9F00111FE7 /* ManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB639A1EFE9C9F00111FE7 /* ManagerData.swift */; };
+		B7BB639D1F00297F00111FE7 /* OfflinePlayerConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB639C1F00297F00111FE7 /* OfflinePlayerConrtoller.swift */; };
+		B7ECF7481EFE8558005C8894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECF7471EFE8558005C8894 /* AppDelegate.swift */; };
+		B7ECF74A1EFE8558005C8894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECF7491EFE8558005C8894 /* ViewController.swift */; };
+		B7ECF74D1EFE8558005C8894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ECF74B1EFE8558005C8894 /* Main.storyboard */; };
+		B7ECF74F1EFE8558005C8894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7ECF74E1EFE8558005C8894 /* Assets.xcassets */; };
+		B7ECF7521EFE8558005C8894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ECF7501EFE8558005C8894 /* LaunchScreen.storyboard */; };
+		DAC55243879795FCD3C8C036 /* Pods_RadioT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52136249D862E7D3FCDC1594 /* Pods_RadioT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52136249D862E7D3FCDC1594 /* Pods_RadioT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E1D34AE6E32AECC8E4379D /* Pods-RadioT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioT/Pods-RadioT.debug.xcconfig"; sourceTree = "<group>"; };
+		B76E3AE91F00FCFB00285E91 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = SOURCE_ROOT; };
+		B76E3AEB1F02CED500285E91 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		B778D1601F04341400538D11 /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		B778D1621F043B7D00538D11 /* OnlinePlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlinePlayerController.swift; sourceTree = "<group>"; };
+		B7BB63981EFE8D8E00111FE7 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		B7BB639A1EFE9C9F00111FE7 /* ManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerData.swift; sourceTree = SOURCE_ROOT; };
+		B7BB639C1F00297F00111FE7 /* OfflinePlayerConrtoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflinePlayerConrtoller.swift; sourceTree = "<group>"; };
+		B7ECF7441EFE8558005C8894 /* RadioT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7ECF7471EFE8558005C8894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7ECF7491EFE8558005C8894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7ECF74C1EFE8558005C8894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7ECF74E1EFE8558005C8894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7ECF7511EFE8558005C8894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7ECF7531EFE8558005C8894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D135DFF4B504292D2A62E564 /* Pods-RadioT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioT.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioT/Pods-RadioT.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7ECF7411EFE8558005C8894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC55243879795FCD3C8C036 /* Pods_RadioT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6619E6E9FE8CFBD4575FC796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81E1D34AE6E32AECC8E4379D /* Pods-RadioT.debug.xcconfig */,
+				D135DFF4B504292D2A62E564 /* Pods-RadioT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7ECF73B1EFE8557005C8894 = {
+			isa = PBXGroup;
+			children = (
+				B7ECF7461EFE8558005C8894 /* RadioT */,
+				B7ECF7451EFE8558005C8894 /* Products */,
+				6619E6E9FE8CFBD4575FC796 /* Pods */,
+				CB91175FF5CE1BFF445D7D34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7ECF7451EFE8558005C8894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7ECF7441EFE8558005C8894 /* RadioT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7ECF7461EFE8558005C8894 /* RadioT */ = {
+			isa = PBXGroup;
+			children = (
+				B7ECF7471EFE8558005C8894 /* AppDelegate.swift */,
+				B7ECF7491EFE8558005C8894 /* ViewController.swift */,
+				B7BB639A1EFE9C9F00111FE7 /* ManagerData.swift */,
+				B778D1621F043B7D00538D11 /* OnlinePlayerController.swift */,
+				B778D1601F04341400538D11 /* NewsController.swift */,
+				B76E3AEB1F02CED500285E91 /* InfoController.swift */,
+				B7BB639C1F00297F00111FE7 /* OfflinePlayerConrtoller.swift */,
+				B7BB63981EFE8D8E00111FE7 /* CustomCell.swift */,
+				B76E3AE91F00FCFB00285E91 /* OpenSans-Semibold.ttf */,
+				B7ECF74B1EFE8558005C8894 /* Main.storyboard */,
+				B7ECF74E1EFE8558005C8894 /* Assets.xcassets */,
+				B7ECF7501EFE8558005C8894 /* LaunchScreen.storyboard */,
+				B7ECF7531EFE8558005C8894 /* Info.plist */,
+			);
+			path = RadioT;
+			sourceTree = "<group>";
+		};
+		CB91175FF5CE1BFF445D7D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52136249D862E7D3FCDC1594 /* Pods_RadioT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7ECF7431EFE8558005C8894 /* RadioT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7ECF7561EFE8558005C8894 /* Build configuration list for PBXNativeTarget "RadioT" */;
+			buildPhases = (
+				E069AF23EC2EE12EA684B218 /* [CP] Check Pods Manifest.lock */,
+				B7ECF7401EFE8558005C8894 /* Sources */,
+				B7ECF7411EFE8558005C8894 /* Frameworks */,
+				B7ECF7421EFE8558005C8894 /* Resources */,
+				E4B1A6779AC18FD97B5880D5 /* [CP] Embed Pods Frameworks */,
+				50222BF235DE2DEB8D211A1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioT;
+			productName = RadioT;
+			productReference = B7ECF7441EFE8558005C8894 /* RadioT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7ECF73C1EFE8558005C8894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Den;
+				TargetAttributes = {
+					B7ECF7431EFE8558005C8894 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WWM64SMF5C;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B7ECF73F1EFE8558005C8894 /* Build configuration list for PBXProject "RadioT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7ECF73B1EFE8557005C8894;
+			productRefGroup = B7ECF7451EFE8558005C8894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7ECF7431EFE8558005C8894 /* RadioT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7ECF7421EFE8558005C8894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76E3AEA1F00FD1B00285E91 /* OpenSans-Semibold.ttf in Resources */,
+				B7ECF7521EFE8558005C8894 /* LaunchScreen.storyboard in Resources */,
+				B7ECF74F1EFE8558005C8894 /* Assets.xcassets in Resources */,
+				B7ECF74D1EFE8558005C8894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50222BF235DE2DEB8D211A1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioT/Pods-RadioT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E069AF23EC2EE12EA684B218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B1A6779AC18FD97B5880D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioT/Pods-RadioT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7ECF7401EFE8558005C8894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BB639D1F00297F00111FE7 /* OfflinePlayerConrtoller.swift in Sources */,
+				B7ECF74A1EFE8558005C8894 /* ViewController.swift in Sources */,
+				B7BB639B1EFE9C9F00111FE7 /* ManagerData.swift in Sources */,
+				B778D1611F04341400538D11 /* NewsController.swift in Sources */,
+				B7BB63991EFE8D8E00111FE7 /* CustomCell.swift in Sources */,
+				B778D1631F043B7D00538D11 /* OnlinePlayerController.swift in Sources */,
+				B7ECF7481EFE8558005C8894 /* AppDelegate.swift in Sources */,
+				B76E3AEC1F02CED500285E91 /* InfoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7ECF74B1EFE8558005C8894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7ECF74C1EFE8558005C8894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7ECF7501EFE8558005C8894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7ECF7511EFE8558005C8894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7ECF7541EFE8558005C8894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7ECF7551EFE8558005C8894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7ECF7571EFE8558005C8894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E1D34AE6E32AECC8E4379D /* Pods-RadioT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WWM64SMF5C;
+				INFOPLIST_FILE = RadioT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = den.RadioT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B7ECF7581EFE8558005C8894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D135DFF4B504292D2A62E564 /* Pods-RadioT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WWM64SMF5C;
+				INFOPLIST_FILE = RadioT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = den.RadioT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7ECF73F1EFE8558005C8894 /* Build configuration list for PBXProject "RadioT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7ECF7541EFE8558005C8894 /* Debug */,
+				B7ECF7551EFE8558005C8894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7ECF7561EFE8558005C8894 /* Build configuration list for PBXNativeTarget "RadioT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7ECF7571EFE8558005C8894 /* Debug */,
+				B7ECF7581EFE8558005C8894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7ECF73C1EFE8558005C8894 /* Project object */;
+}
